@@ -1,0 +1,93 @@
+/* Global styles */
+body {
+  background-color: #fff8dc;
+  font-family: 'Margarine', cursive;
+  color: #444;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  color: #ff6f61;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.tagline {
+  font-size: 0.9rem;
+  color: #FF6F00;
+}
+
+/* Image styling */
+.recipe-img {
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Section styling */
+.recipe-section {
+  background: #fff3d1;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+  color: #ffa07a;
+}
+
+/* List styling */
+ul,
+ol {
+  padding-left: 1.5rem;
+}
+
+input[type="checkbox"] {
+  accent-color: #FFD54F;
+  width: 18px;
+  height: 18px;
+  margin-right: 0.5rem;
+}
+
+/* Reset button */
+#reset-btn {
+  display: block;
+  margin: 2rem auto;
+  padding: 0.75rem 1.5rem;
+  background-color: #FFD54F;
+  color: #D84315;
+  font-family: 'Margarine', cursive;
+  font-size: 1rem;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+#reset-btn:hover {
+  background-color: #FFB300;
+  color: white;
+  transform: scale(1.05);
+}
+
+#reset-btn.clicked {
+  box-shadow: 0 0 20px #FFD54F, 0 0 40px #FFA07A;
+  transition: box-shadow 0.3s ease-out;
+}
